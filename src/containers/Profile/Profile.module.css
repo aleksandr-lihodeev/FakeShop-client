@@ -1,0 +1,39 @@
+.content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.insideContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    padding: 40px;
+    margin-left: 40px;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.wrapper__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.spanInfo {
+    color: #70C05B;
+    border: 1px solid #8F8F8F;
+    padding: 5px;
+    border-radius: 20px;
+}

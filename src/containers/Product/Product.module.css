@@ -1,0 +1,53 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.search {
+    margin-bottom: 50px;
+    width: 25%;
+}
+
+.content {
+    padding: 75px 0;
+}
+
+.layout {
+    padding: 100px 0;
+}
+
+.animated__text span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+
+    /* Clip Background Image */
+    background: url(../../assets/images/bgcForTextAnimated.jpg) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Animate Text Color */
+    color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    animation: aitf 80s linear infinite;
+
+    /* Activate hardware acceleration for smoother animations */
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+}
+
+/* Animate Text Color */
+@keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+

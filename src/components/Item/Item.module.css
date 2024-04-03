@@ -1,0 +1,43 @@
+.box {
+    border-radius: 4px;
+    background: #FFF;
+    position: relative;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.box img {
+    height: 160px;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.favorite__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.box__content {
+    padding: 8px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #414141;
+}
+
+.name {
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+}
+
+.icon__button {
+    position: absolute !important;
+    bottom: 30% !important;
+    right: 0 !important;
+}

@@ -1,0 +1,25 @@
+.icon {
+    width: 2%;
+}
+
+.catalog__button {
+    display: flex !important;
+    width: 140px !important;
+    padding: 8px !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-radius: 4px !important;
+    background: #70C05B !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    font-size: 16px !important;
+}
+
+.catalog__button img {
+    width: 20%;
+    height: 24px;
+}
+
+.wrapper__catalog {
+    text-align: center;
+}
