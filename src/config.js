@@ -1,5 +1,5 @@
 // export const API = 'http://localhost:5050'
-export const API = 'https://yogurt13-api.onrender.com'
+export const API = 'https://FakeShop-server.onrender.com'
 export const AUTH_API = API + '/auth/'
 export const PROFILE_API = API + '/profile/'
 export const COCKTAILS_API = API + '/cocktail/'
